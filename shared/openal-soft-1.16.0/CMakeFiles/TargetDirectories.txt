@@ -1,0 +1,4 @@
+/home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/common.dir
+/home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/makehrtf.dir
+/home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/openal.dir
+/home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/openal-info.dir

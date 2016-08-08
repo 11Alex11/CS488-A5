@@ -1,0 +1,8 @@
+/home/rickysimon/Desktop/cs488/A5/shared/freealut-master/src/CMakeFiles/alut.dir
+/home/rickysimon/Desktop/cs488/A5/shared/freealut-master/examples/CMakeFiles/hello_world.dir
+/home/rickysimon/Desktop/cs488/A5/shared/freealut-master/examples/CMakeFiles/playfile.dir
+/home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/test_errorstuff.dir
+/home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/test_fileloader.dir
+/home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/test_memoryloader.dir
+/home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/test_version.dir
+/home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/test_waveforms.dir

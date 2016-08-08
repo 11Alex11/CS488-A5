@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rickysimon/Desktop/cs488/A5/shared/freealut-master/test_suite/test_fileloader.c
+stdlib.h
+-
+stdio.h
+-
+AL/alut.h
+-
+
+/usr/include/AL/al.h
+
+/usr/include/AL/alc.h
+
+include/AL/alut.h
+alc.h
+-
+al.h
+-
+OpenAL/alc.h
+-
+OpenAL/al.h
+-
+AL/al.h
+-
+AL/alc.h
+-
+

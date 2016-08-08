@@ -1,0 +1,317 @@
+Performing C SOURCE FILE Test HAVE_C11_ATOMIC failed with the following output:
+Change Dir: /home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec983650281/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec983650281.dir/build.make CMakeFiles/cmTryCompileExec983650281.dir/build
+make[1]: Entering directory `/home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec983650281.dir/src.c.o
+/usr/bin/cc   -std=c99  -DHAVE_C11_ATOMIC  -D_GNU_SOURCE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -D_LARGEFILE_SOURCE -D_LARGE_FILES   -o CMakeFiles/cmTryCompileExec983650281.dir/src.c.o   -c /home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp/src.c
+/home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp/src.c:1:23: fatal error: stdatomic.h: No such file or directory
+ #include <stdatomic.h>
+                       ^
+compilation terminated.
+make[1]: Leaving directory `/home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec983650281.dir/src.c.o] Error 1
+make: *** [cmTryCompileExec983650281/fast] Error 2
+
+Source file was:
+#include <stdatomic.h>
+ int _Atomic foo;
+ int main()
+ {
+     return atomic_load(&foo);
+ }
+Determining if the include file io.h exists failed with the following output:
+Change Dir: /home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec459257756/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec459257756.dir/build.make CMakeFiles/cmTryCompileExec459257756.dir/build
+make[1]: Entering directory `/home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec459257756.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=c99   -D_GNU_SOURCE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -D_LARGEFILE_SOURCE -D_LARGE_FILES   -o CMakeFiles/cmTryCompileExec459257756.dir/CheckIncludeFile.c.o   -c /home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:16: fatal error: io.h: No such file or directory
+ #include <io.h>
+                ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec459257756.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory `/home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec459257756/fast] Error 2
+
+
+Determining if the include file intrin.h exists failed with the following output:
+Change Dir: /home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec430965301/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec430965301.dir/build.make CMakeFiles/cmTryCompileExec430965301.dir/build
+make[1]: Entering directory `/home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec430965301.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=c99   -D_GNU_SOURCE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -D_LARGEFILE_SOURCE -D_LARGE_FILES   -o CMakeFiles/cmTryCompileExec430965301.dir/CheckIncludeFile.c.o   -c /home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:20: fatal error: intrin.h: No such file or directory
+ #include <intrin.h>
+                    ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec430965301.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory `/home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec430965301/fast] Error 2
+
+
+Determining if the include file sys/sysconf.h exists failed with the following output:
+Change Dir: /home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3081889447/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3081889447.dir/build.make CMakeFiles/cmTryCompileExec3081889447.dir/build
+make[1]: Entering directory `/home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3081889447.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=c99   -D_GNU_SOURCE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -D_LARGEFILE_SOURCE -D_LARGE_FILES   -o CMakeFiles/cmTryCompileExec3081889447.dir/CheckIncludeFile.c.o   -c /home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:25: fatal error: sys/sysconf.h: No such file or directory
+ #include <sys/sysconf.h>
+                         ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec3081889447.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory `/home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3081889447/fast] Error 2
+
+
+Determining if the include file ieeefp.h exists failed with the following output:
+Change Dir: /home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3891584678/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3891584678.dir/build.make CMakeFiles/cmTryCompileExec3891584678.dir/build
+make[1]: Entering directory `/home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3891584678.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=c99   -D_GNU_SOURCE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -D_LARGEFILE_SOURCE -D_LARGE_FILES   -o CMakeFiles/cmTryCompileExec3891584678.dir/CheckIncludeFile.c.o   -c /home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:20: fatal error: ieeefp.h: No such file or directory
+ #include <ieeefp.h>
+                    ^
+compilation terminated.
+make[1]: Leaving directory `/home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec3891584678.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTryCompileExec3891584678/fast] Error 2
+
+
+Determining if the include file guiddef.h exists failed with the following output:
+Change Dir: /home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1135411932/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1135411932.dir/build.make CMakeFiles/cmTryCompileExec1135411932.dir/build
+make[1]: Entering directory `/home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1135411932.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=c99   -D_GNU_SOURCE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -D_LARGEFILE_SOURCE -D_LARGE_FILES   -o CMakeFiles/cmTryCompileExec1135411932.dir/CheckIncludeFile.c.o   -c /home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:21: fatal error: guiddef.h: No such file or directory
+ #include <guiddef.h>
+                     ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec1135411932.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory `/home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1135411932/fast] Error 2
+
+
+Determining if the include file initguid.h exists failed with the following output:
+Change Dir: /home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1339929312/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1339929312.dir/build.make CMakeFiles/cmTryCompileExec1339929312.dir/build
+make[1]: Entering directory `/home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1339929312.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=c99   -D_GNU_SOURCE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -D_LARGEFILE_SOURCE -D_LARGE_FILES   -o CMakeFiles/cmTryCompileExec1339929312.dir/CheckIncludeFile.c.o   -c /home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:22: fatal error: initguid.h: No such file or directory
+ #include <initguid.h>
+                      ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec1339929312.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory `/home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1339929312/fast] Error 2
+
+
+Determining if the _aligned_malloc exist failed with the following output:
+Change Dir: /home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4113714357/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4113714357.dir/build.make CMakeFiles/cmTryCompileExec4113714357.dir/build
+make[1]: Entering directory `/home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4113714357.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -std=c99   -D_GNU_SOURCE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -D_LARGEFILE_SOURCE -D_LARGE_FILES   -o CMakeFiles/cmTryCompileExec4113714357.dir/CheckSymbolExists.c.o   -c /home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘_aligned_malloc’ undeclared (first use in this function)
+   return ((int*)(&_aligned_malloc))[argc];
+                   ^
+/home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTryCompileExec4113714357.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory `/home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec4113714357/fast] Error 2
+
+File /home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _aligned_malloc
+  return ((int*)(&_aligned_malloc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the _controlfp exist failed with the following output:
+Change Dir: /home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3123922370/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3123922370.dir/build.make CMakeFiles/cmTryCompileExec3123922370.dir/build
+make[1]: Entering directory `/home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3123922370.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -std=c99   -D_GNU_SOURCE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -D_LARGEFILE_SOURCE -D_LARGE_FILES   -o CMakeFiles/cmTryCompileExec3123922370.dir/CheckSymbolExists.c.o   -c /home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘_controlfp’ undeclared (first use in this function)
+   return ((int*)(&_controlfp))[argc];
+                   ^
+/home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTryCompileExec3123922370.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory `/home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3123922370/fast] Error 2
+
+File /home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _controlfp
+  return ((int*)(&_controlfp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the __control87_2 exist failed with the following output:
+Change Dir: /home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1694046601/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1694046601.dir/build.make CMakeFiles/cmTryCompileExec1694046601.dir/build
+make[1]: Entering directory `/home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1694046601.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -std=c99   -D_GNU_SOURCE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -D_LARGEFILE_SOURCE -D_LARGE_FILES   -o CMakeFiles/cmTryCompileExec1694046601.dir/CheckSymbolExists.c.o   -c /home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘__control87_2’ undeclared (first use in this function)
+   return ((int*)(&__control87_2))[argc];
+                   ^
+/home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTryCompileExec1694046601.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory `/home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1694046601/fast] Error 2
+
+File /home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __control87_2
+  return ((int*)(&__control87_2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the include file windows.h exists failed with the following output:
+Change Dir: /home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2159170114/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2159170114.dir/build.make CMakeFiles/cmTryCompileExec2159170114.dir/build
+make[1]: Entering directory `/home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2159170114.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=c99  -D_WIN32_WINNT=0x0502  -D_GNU_SOURCE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -D_LARGEFILE_SOURCE -D_LARGE_FILES   -o CMakeFiles/cmTryCompileExec2159170114.dir/CheckIncludeFile.c.o   -c /home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:21: fatal error: windows.h: No such file or directory
+ #include <windows.h>
+                     ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec2159170114.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory `/home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2159170114/fast] Error 2
+
+
+Determining if files pthread.h;pthread_np.h exist failed with the following output:
+Change Dir: /home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec13517150/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec13517150.dir/build.make CMakeFiles/cmTryCompileExec13517150.dir/build
+make[1]: Entering directory `/home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec13517150.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -std=c99   -D_GNU_SOURCE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -D_LARGEFILE_SOURCE -D_LARGE_FILES   -o CMakeFiles/cmTryCompileExec13517150.dir/CheckIncludeFiles.c.o   -c /home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:3:24: fatal error: pthread_np.h: No such file or directory
+ #include <pthread_np.h>
+                        ^
+compilation terminated.
+make[1]: Leaving directory `/home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec13517150.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTryCompileExec13517150/fast] Error 2
+
+Source:
+/* */
+#include <pthread.h>
+#include <pthread_np.h>
+
+
+int main(){return 0;}
+
+Determining if the include file arm_neon.h exists failed with the following output:
+Change Dir: /home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2512754967/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2512754967.dir/build.make CMakeFiles/cmTryCompileExec2512754967.dir/build
+make[1]: Entering directory `/home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2512754967.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=c99   -D_GNU_SOURCE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -D_LARGEFILE_SOURCE -D_LARGE_FILES -pthread   -o CMakeFiles/cmTryCompileExec2512754967.dir/CheckIncludeFile.c.o   -c /home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:22: fatal error: arm_neon.h: No such file or directory
+ #include <arm_neon.h>
+                      ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec2512754967.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory `/home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2512754967/fast] Error 2
+
+
+Determining if files SLES/OpenSLES.h;SLES/OpenSLES_Android.h exist failed with the following output:
+Change Dir: /home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec410110701/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec410110701.dir/build.make CMakeFiles/cmTryCompileExec410110701.dir/build
+make[1]: Entering directory `/home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec410110701.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -std=c99   -D_GNU_SOURCE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -D_LARGEFILE_SOURCE -D_LARGE_FILES -pthread   -o CMakeFiles/cmTryCompileExec410110701.dir/CheckIncludeFiles.c.o   -c /home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:27: fatal error: SLES/OpenSLES.h: No such file or directory
+ #include <SLES/OpenSLES.h>
+                           ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec410110701.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory `/home/rickysimon/Desktop/cs488/A5/shared/openal-soft-1.16.0/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec410110701/fast] Error 2
+
+Source:
+/* */
+#include <SLES/OpenSLES.h>
+#include <SLES/OpenSLES_Android.h>
+
+
+int main(){return 0;}
+

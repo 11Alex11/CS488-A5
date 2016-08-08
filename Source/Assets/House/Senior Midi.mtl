@@ -1,0 +1,99 @@
+# Blender MTL File: 'Senior Midi.blend'
+# Material Count: 9
+newmtl Material.001
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+
+
+newmtl Material.002
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+
+
+newmtl Material.003_Senior_Midi_MB_OF-1418_[Branco].png
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 1 1 1
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Senior Midi MB OF-1418 [Branco].png
+map_bump normal.png
+
+newmtl Material.004_Senior_Midi_MB_OF-1418_[Branco].png
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 1 1 1
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Senior Midi MB OF-1418 [Branco].png
+map_bump normal.png
+
+newmtl Material.005_Senior_Midi_MB_OF-1418_[Branco].png
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 1 1 1
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Senior Midi MB OF-1418 [Branco].png
+map_bump normal.png 
+
+newmtl Material.006_Senior_Midi_MB_OF-1418_[Branco].png
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 1 1 1
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Senior Midi MB OF-1418 [Branco].png
+map_bump normal.png
+
+newmtl Material.007_Senior_Midi_MB_OF-1418_[Branco].png
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 1 1 1
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Senior Midi MB OF-1418 [Branco].png
+map_bump normal.png
+
+newmtl Material.008_Senior_Midi_MB_OF-1418_[Branco].png
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 1 1 1
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Senior Midi MB OF-1418 [Branco].png
+map_bump normal.png
+
+newmtl Material.009_Senior_Midi_MB_OF-1418_[Branco].png
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 1 1 1
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Senior Midi MB OF-1418 [Branco].png
+map_bump normal.png
+

@@ -1,0 +1,1 @@
+/usr/bin/cc      CMakeFiles/peter.dir/peter.c.o  -o peter -rdynamic ../src/libglfw3.a -lX11 -lpthread -lXrandr -lXinerama -lXi -lXxf86vm -lrt -lm -lXcursor -lGL 

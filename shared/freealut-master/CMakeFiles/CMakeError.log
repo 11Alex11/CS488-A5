@@ -1,0 +1,52 @@
+Determining if the include file windows.h exists failed with the following output:
+Change Dir: /home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec390035575/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec390035575.dir/build.make CMakeFiles/cmTryCompileExec390035575.dir/build
+make[1]: Entering directory `/home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec390035575.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec390035575.dir/CheckIncludeFile.c.o   -c /home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:21: fatal error: windows.h: No such file or directory
+ #include <windows.h>
+                     ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec390035575.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory `/home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec390035575/fast] Error 2
+
+
+Determining if the _stat exist failed with the following output:
+Change Dir: /home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec221823674/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec221823674.dir/build.make CMakeFiles/cmTryCompileExec221823674.dir/build
+make[1]: Entering directory `/home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec221823674.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec221823674.dir/CheckSymbolExists.c.o   -c /home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp/CheckSymbolExists.c:9:19: error: ‘_stat’ undeclared (first use in this function)
+   return ((int*)(&_stat))[argc];
+                   ^
+/home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp/CheckSymbolExists.c:9:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTryCompileExec221823674.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory `/home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec221823674/fast] Error 2
+
+File /home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <sys/stat.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _stat
+  return ((int*)(&_stat))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

@@ -1,0 +1,1 @@
+/usr/bin/cc  -std=c99  -g -O2 -D_DEBUG    CMakeFiles/openal-info.dir/utils/openal-info.c.o  -o openal-info -rdynamic libopenal.a libcommon.a -lrt -lpthread -ldl -lm -pthread 

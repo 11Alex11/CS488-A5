@@ -1,0 +1,1 @@
+/usr/bin/cc   -finline-functions -ffast-math -fomit-frame-pointer    CMakeFiles/playfile.dir/playfile.c.o  -o playfile -rdynamic ../src/libalut.so.0 -lopenal -lm -Wl,-rpath,/home/rickysimon/Desktop/cs488/A5/shared/freealut-master/src 

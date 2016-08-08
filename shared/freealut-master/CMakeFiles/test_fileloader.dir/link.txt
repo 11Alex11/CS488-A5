@@ -1,0 +1,1 @@
+/usr/bin/cc   -finline-functions -ffast-math -fomit-frame-pointer    CMakeFiles/test_fileloader.dir/test_suite/test_fileloader.c.o  -o test_fileloader -rdynamic src/libalut.so.0 -lopenal -lm -Wl,-rpath,/home/rickysimon/Desktop/cs488/A5/shared/freealut-master/src 

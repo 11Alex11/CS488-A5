@@ -1,0 +1,403 @@
+The system is: Linux - 3.16.0-38-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/2.8.12.2/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2996082368/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2996082368.dir/build.make CMakeFiles/cmTryCompileExec2996082368.dir/build
+make[1]: Entering directory `/home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2996082368.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2996082368.dir/testCCompiler.c.o   -c /home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec2996082368
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2996082368.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2996082368.dir/testCCompiler.c.o  -o cmTryCompileExec2996082368 -rdynamic 
+make[1]: Leaving directory `/home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec22612255/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec22612255.dir/build.make CMakeFiles/cmTryCompileExec22612255.dir/build
+make[1]: Entering directory `/home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec22612255.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec22612255.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec22612255
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec22612255.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTryCompileExec22612255.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec22612255 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec22612255' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec22612255 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec22612255.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory `/home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec22612255/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec22612255.dir/build.make CMakeFiles/cmTryCompileExec22612255.dir/build]
+  ignore line: [make[1]: Entering directory `/home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec22612255.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec22612255.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec22612255]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec22612255.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTryCompileExec22612255.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec22612255 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec22612255' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec22612255 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec22612255.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec22612255] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
+    arg [CMakeFiles/cmTryCompileExec22612255.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.8;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec272218693/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec272218693.dir/build.make CMakeFiles/cmTryCompileExec272218693.dir/build
+make[1]: Entering directory `/home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec272218693.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec272218693.dir/CheckIncludeFile.c.o   -c /home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec272218693
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec272218693.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec272218693.dir/CheckIncludeFile.c.o  -o cmTryCompileExec272218693 -rdynamic 
+make[1]: Leaving directory `/home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2922549838/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2922549838.dir/build.make CMakeFiles/cmTryCompileExec2922549838.dir/build
+make[1]: Entering directory `/home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2922549838.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2922549838.dir/CheckIncludeFile.c.o   -c /home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2922549838
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2922549838.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2922549838.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2922549838 -rdynamic 
+make[1]: Leaving directory `/home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file time.h exists passed with the following output:
+Change Dir: /home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2144514611/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2144514611.dir/build.make CMakeFiles/cmTryCompileExec2144514611.dir/build
+make[1]: Entering directory `/home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2144514611.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2144514611.dir/CheckIncludeFile.c.o   -c /home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2144514611
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2144514611.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2144514611.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2144514611 -rdynamic 
+make[1]: Leaving directory `/home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file features.h exists passed with the following output:
+Change Dir: /home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec8611213/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec8611213.dir/build.make CMakeFiles/cmTryCompileExec8611213.dir/build
+make[1]: Entering directory `/home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec8611213.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec8611213.dir/CheckIncludeFile.c.o   -c /home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec8611213
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec8611213.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec8611213.dir/CheckIncludeFile.c.o  -o cmTryCompileExec8611213 -rdynamic 
+make[1]: Leaving directory `/home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp'
+
+
+Determining if the nanosleep exist passed with the following output:
+Change Dir: /home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2489714330/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2489714330.dir/build.make CMakeFiles/cmTryCompileExec2489714330.dir/build
+make[1]: Entering directory `/home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2489714330.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2489714330.dir/CheckSymbolExists.c.o   -c /home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2489714330
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2489714330.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2489714330.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2489714330 -rdynamic 
+make[1]: Leaving directory `/home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp'
+
+File /home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef nanosleep
+  return ((int*)(&nanosleep))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the usleep exist passed with the following output:
+Change Dir: /home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3227482965/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3227482965.dir/build.make CMakeFiles/cmTryCompileExec3227482965.dir/build
+make[1]: Entering directory `/home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3227482965.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3227482965.dir/CheckSymbolExists.c.o   -c /home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3227482965
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3227482965.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3227482965.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3227482965 -rdynamic 
+make[1]: Leaving directory `/home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp'
+
+File /home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef usleep
+  return ((int*)(&usleep))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the stat exist passed with the following output:
+Change Dir: /home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3057638308/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3057638308.dir/build.make CMakeFiles/cmTryCompileExec3057638308.dir/build
+make[1]: Entering directory `/home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3057638308.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3057638308.dir/CheckSymbolExists.c.o   -c /home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3057638308
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3057638308.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3057638308.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3057638308 -rdynamic 
+make[1]: Leaving directory `/home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp'
+
+File /home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef stat
+  return ((int*)(&stat))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the __GLIBC__ exist passed with the following output:
+Change Dir: /home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2496910435/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2496910435.dir/build.make CMakeFiles/cmTryCompileExec2496910435.dir/build
+make[1]: Entering directory `/home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2496910435.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2496910435.dir/CheckSymbolExists.c.o   -c /home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2496910435
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2496910435.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2496910435.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2496910435 -rdynamic 
+make[1]: Leaving directory `/home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp'
+
+File /home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <features.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __GLIBC__
+  return ((int*)(&__GLIBC__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test HAVE___ATTRIBUTE__ succeded with the following output:
+Change Dir: /home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec161168008/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec161168008.dir/build.make CMakeFiles/cmTryCompileExec161168008.dir/build
+make[1]: Entering directory `/home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec161168008.dir/src.c.o
+/usr/bin/cc   -DHAVE___ATTRIBUTE__   -o CMakeFiles/cmTryCompileExec161168008.dir/src.c.o   -c /home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec161168008
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec161168008.dir/link.txt --verbose=1
+/usr/bin/cc   -DHAVE___ATTRIBUTE__    CMakeFiles/cmTryCompileExec161168008.dir/src.c.o  -o cmTryCompileExec161168008 -rdynamic 
+make[1]: Leaving directory `/home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp'
+
+Source file was:
+void  foo (int bar __attribute__((unused)) ) { }
+	static void baz (void) __attribute__((unused));
+	static void baz (void) { }
+	int main(){}
+	
+Performing C SOURCE FILE Test HAVE_GCC_VISIBILITY succeded with the following output:
+Change Dir: /home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3818801999/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3818801999.dir/build.make CMakeFiles/cmTryCompileExec3818801999.dir/build
+make[1]: Entering directory `/home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3818801999.dir/src.c.o
+/usr/bin/cc   -DHAVE_GCC_VISIBILITY -fvisibility=hidden   -o CMakeFiles/cmTryCompileExec3818801999.dir/src.c.o   -c /home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec3818801999
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3818801999.dir/link.txt --verbose=1
+/usr/bin/cc   -DHAVE_GCC_VISIBILITY -fvisibility=hidden    CMakeFiles/cmTryCompileExec3818801999.dir/src.c.o  -o cmTryCompileExec3818801999 -rdynamic 
+make[1]: Leaving directory `/home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp'
+
+Source file was:
+void __attribute__((visibility("default"))) test() {}
+	#ifdef __INTEL_COMPILER
+	#error ICC breaks with binutils and visibility
+	#endif
+	int main(){}
+	
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_finline-functions succeded with the following output:
+Change Dir: /home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec274411436/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec274411436.dir/build.make CMakeFiles/cmTryCompileExec274411436.dir/build
+make[1]: Entering directory `/home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec274411436.dir/src.c.o
+/usr/bin/cc   -DCOMPILER_SUPPORTS_finline-functions   -finline-functions -o CMakeFiles/cmTryCompileExec274411436.dir/src.c.o   -c /home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:26: warning: missing whitespace after the macro name [enabled by default]
+Linking C executable cmTryCompileExec274411436
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec274411436.dir/link.txt --verbose=1
+/usr/bin/cc   -DCOMPILER_SUPPORTS_finline-functions    CMakeFiles/cmTryCompileExec274411436.dir/src.c.o  -o cmTryCompileExec274411436 -rdynamic 
+make[1]: Leaving directory `/home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_ffast-math succeded with the following output:
+Change Dir: /home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec526694720/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec526694720.dir/build.make CMakeFiles/cmTryCompileExec526694720.dir/build
+make[1]: Entering directory `/home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec526694720.dir/src.c.o
+/usr/bin/cc   -DCOMPILER_SUPPORTS_ffast-math   -ffast-math -o CMakeFiles/cmTryCompileExec526694720.dir/src.c.o   -c /home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:24: warning: missing whitespace after the macro name [enabled by default]
+Linking C executable cmTryCompileExec526694720
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec526694720.dir/link.txt --verbose=1
+/usr/bin/cc   -DCOMPILER_SUPPORTS_ffast-math    CMakeFiles/cmTryCompileExec526694720.dir/src.c.o  -o cmTryCompileExec526694720 -rdynamic 
+make[1]: Leaving directory `/home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fomit-frame-pointer succeded with the following output:
+Change Dir: /home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2341351457/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2341351457.dir/build.make CMakeFiles/cmTryCompileExec2341351457.dir/build
+make[1]: Entering directory `/home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2341351457.dir/src.c.o
+/usr/bin/cc   -DCOMPILER_SUPPORTS_fomit-frame-pointer   -fomit-frame-pointer -o CMakeFiles/cmTryCompileExec2341351457.dir/src.c.o   -c /home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:24: warning: missing whitespace after the macro name [enabled by default]
+Linking C executable cmTryCompileExec2341351457
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2341351457.dir/link.txt --verbose=1
+/usr/bin/cc   -DCOMPILER_SUPPORTS_fomit-frame-pointer    CMakeFiles/cmTryCompileExec2341351457.dir/src.c.o  -o cmTryCompileExec2341351457 -rdynamic 
+make[1]: Leaving directory `/home/rickysimon/Desktop/cs488/A5/shared/freealut-master/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }

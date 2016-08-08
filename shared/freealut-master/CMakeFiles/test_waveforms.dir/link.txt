@@ -1,0 +1,1 @@
+/usr/bin/cc   -finline-functions -ffast-math -fomit-frame-pointer    CMakeFiles/test_waveforms.dir/test_suite/test_waveforms.c.o  -o test_waveforms -rdynamic src/libalut.so.0 -lopenal -lm -Wl,-rpath,/home/rickysimon/Desktop/cs488/A5/shared/freealut-master/src 

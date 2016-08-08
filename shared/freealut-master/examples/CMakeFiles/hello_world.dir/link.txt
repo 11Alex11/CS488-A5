@@ -1,0 +1,1 @@
+/usr/bin/cc   -finline-functions -ffast-math -fomit-frame-pointer    CMakeFiles/hello_world.dir/hello_world.c.o  -o hello_world -rdynamic ../src/libalut.so.0 -lopenal -lm -Wl,-rpath,/home/rickysimon/Desktop/cs488/A5/shared/freealut-master/src 

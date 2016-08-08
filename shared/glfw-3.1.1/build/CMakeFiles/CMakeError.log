@@ -1,0 +1,217 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+1
+/usr/bin/ld: cannot find crt1.o: No such file or directory
+/usr/bin/ld: cannot find crti.o: No such file or directory
+/usr/bin/ld: cannot find -lc
+/usr/bin/ld: cannot find crtn.o: No such file or directory
+collect2: error: ld returned 1 exit status
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/rickysimon/Desktop/cs488/shared/glfw-3.1.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3842213833/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3842213833.dir/build.make CMakeFiles/cmTryCompileExec3842213833.dir/build
+make[1]: Entering directory `/home/rickysimon/Desktop/cs488/shared/glfw-3.1.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rickysimon/Desktop/cs488/shared/glfw-3.1.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3842213833.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3842213833.dir/testCCompiler.c.o   -c /home/rickysimon/Desktop/cs488/shared/glfw-3.1.1/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec3842213833
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3842213833.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3842213833.dir/testCCompiler.c.o  -o cmTryCompileExec3842213833 -rdynamic 
+/usr/bin/ld: cannot find crt1.o: No such file or directory
+/usr/bin/ld: cannot find crti.o: No such file or directory
+/usr/bin/ld: cannot find -lc
+/usr/bin/ld: cannot find crtn.o: No such file or directory
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec3842213833] Error 1
+make[1]: Leaving directory `/home/rickysimon/Desktop/cs488/shared/glfw-3.1.1/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3842213833/fast] Error 2
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+1
+/usr/bin/ld: cannot find crt1.o: No such file or directory
+/usr/bin/ld: cannot find crti.o: No such file or directory
+/usr/bin/ld: cannot find -lc
+/usr/bin/ld: cannot find crtn.o: No such file or directory
+collect2: error: ld returned 1 exit status
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/rickysimon/Desktop/cs488/shared/glfw-3.1.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4058432839/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4058432839.dir/build.make CMakeFiles/cmTryCompileExec4058432839.dir/build
+make[1]: Entering directory `/home/rickysimon/Desktop/cs488/shared/glfw-3.1.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rickysimon/Desktop/cs488/shared/glfw-3.1.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4058432839.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4058432839.dir/testCCompiler.c.o   -c /home/rickysimon/Desktop/cs488/shared/glfw-3.1.1/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec4058432839
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4058432839.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec4058432839.dir/testCCompiler.c.o  -o cmTryCompileExec4058432839 -rdynamic 
+/usr/bin/ld: cannot find crt1.o: No such file or directory
+/usr/bin/ld: cannot find crti.o: No such file or directory
+/usr/bin/ld: cannot find -lc
+/usr/bin/ld: cannot find crtn.o: No such file or directory
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec4058432839] Error 1
+make[1]: Leaving directory `/home/rickysimon/Desktop/cs488/shared/glfw-3.1.1/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec4058432839/fast] Error 2
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+1
+/usr/bin/ld: cannot find crt1.o: No such file or directory
+/usr/bin/ld: cannot find crti.o: No such file or directory
+/usr/bin/ld: cannot find -lc
+/usr/bin/ld: cannot find crtn.o: No such file or directory
+collect2: error: ld returned 1 exit status
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/rickysimon/Desktop/cs488/shared/glfw-3.1.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2066193003/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2066193003.dir/build.make CMakeFiles/cmTryCompileExec2066193003.dir/build
+make[1]: Entering directory `/home/rickysimon/Desktop/cs488/shared/glfw-3.1.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rickysimon/Desktop/cs488/shared/glfw-3.1.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2066193003.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2066193003.dir/testCCompiler.c.o   -c /home/rickysimon/Desktop/cs488/shared/glfw-3.1.1/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec2066193003
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2066193003.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2066193003.dir/testCCompiler.c.o  -o cmTryCompileExec2066193003 -rdynamic 
+/usr/bin/ld: cannot find crt1.o: No such file or directory
+/usr/bin/ld: cannot find crti.o: No such file or directory
+/usr/bin/ld: cannot find -lc
+/usr/bin/ld: cannot find crtn.o: No such file or directory
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec2066193003] Error 1
+make[1]: Leaving directory `/home/rickysimon/Desktop/cs488/shared/glfw-3.1.1/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2066193003/fast] Error 2
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+1
+/usr/bin/ld: cannot find crt1.o: No such file or directory
+/usr/bin/ld: cannot find crti.o: No such file or directory
+/usr/bin/ld: cannot find -lc
+/usr/bin/ld: cannot find crtn.o: No such file or directory
+collect2: error: ld returned 1 exit status
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/rickysimon/Desktop/cs488/shared/glfw-3.1.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4161330321/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4161330321.dir/build.make CMakeFiles/cmTryCompileExec4161330321.dir/build
+make[1]: Entering directory `/home/rickysimon/Desktop/cs488/shared/glfw-3.1.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rickysimon/Desktop/cs488/shared/glfw-3.1.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4161330321.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4161330321.dir/testCCompiler.c.o   -c /home/rickysimon/Desktop/cs488/shared/glfw-3.1.1/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec4161330321
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4161330321.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec4161330321.dir/testCCompiler.c.o  -o cmTryCompileExec4161330321 -rdynamic 
+/usr/bin/ld: cannot find crt1.o: No such file or directory
+/usr/bin/ld: cannot find crti.o: No such file or directory
+/usr/bin/ld: cannot find -lc
+/usr/bin/ld: cannot find crtn.o: No such file or directory
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec4161330321] Error 1
+make[1]: Leaving directory `/home/rickysimon/Desktop/cs488/shared/glfw-3.1.1/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec4161330321/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/rickysimon/Desktop/cs488/shared/glfw-3.1.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4226442633/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4226442633.dir/build.make CMakeFiles/cmTryCompileExec4226442633.dir/build
+make[1]: Entering directory `/home/rickysimon/Desktop/cs488/shared/glfw-3.1.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rickysimon/Desktop/cs488/shared/glfw-3.1.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4226442633.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4226442633.dir/CheckSymbolExists.c.o   -c /home/rickysimon/Desktop/cs488/shared/glfw-3.1.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec4226442633
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4226442633.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec4226442633.dir/CheckSymbolExists.c.o  -o cmTryCompileExec4226442633 -rdynamic 
+CMakeFiles/cmTryCompileExec4226442633.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: Leaving directory `/home/rickysimon/Desktop/cs488/shared/glfw-3.1.1/build/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec4226442633] Error 1
+make: *** [cmTryCompileExec4226442633/fast] Error 2
+
+File /home/rickysimon/Desktop/cs488/shared/glfw-3.1.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/rickysimon/Desktop/cs488/shared/glfw-3.1.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4290495848/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4290495848.dir/build.make CMakeFiles/cmTryCompileExec4290495848.dir/build
+make[1]: Entering directory `/home/rickysimon/Desktop/cs488/shared/glfw-3.1.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rickysimon/Desktop/cs488/shared/glfw-3.1.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4290495848.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec4290495848.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4290495848
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4290495848.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec4290495848.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4290495848 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec4290495848] Error 1
+make[1]: Leaving directory `/home/rickysimon/Desktop/cs488/shared/glfw-3.1.1/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec4290495848/fast] Error 2
+
+
+Determining if the function glXGetProcAddressEXT exists failed with the following output:
+Change Dir: /home/rickysimon/Desktop/cs488/shared/glfw-3.1.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2674832768/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2674832768.dir/build.make CMakeFiles/cmTryCompileExec2674832768.dir/build
+make[1]: Entering directory `/home/rickysimon/Desktop/cs488/shared/glfw-3.1.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rickysimon/Desktop/cs488/shared/glfw-3.1.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2674832768.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=glXGetProcAddressEXT   -o CMakeFiles/cmTryCompileExec2674832768.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2674832768
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2674832768.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=glXGetProcAddressEXT    CMakeFiles/cmTryCompileExec2674832768.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2674832768 -rdynamic -lGL 
+CMakeFiles/cmTryCompileExec2674832768.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `glXGetProcAddressEXT'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec2674832768] Error 1
+make[1]: Leaving directory `/home/rickysimon/Desktop/cs488/shared/glfw-3.1.1/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2674832768/fast] Error 2
+
+
